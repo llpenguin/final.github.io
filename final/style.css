@@ -1,0 +1,154 @@
+/* General style */
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(79, 149, 72);
+}
+h1{
+    color: rgb(244, 225, 194);
+    text-align:center;
+}
+h2{
+    color:rgb(224, 222, 138);
+    text-align:center;
+}
+div.container{
+   background-color: rgb(247, 233, 216);
+    border: 5px solid rgb(91, 129, 35);
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+
+/* CSS by ID */
+#container{
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* CSS by class */
+
+
+nav{
+    background-color: rgb(47, 87, 43);
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    width: 150px;
+    border: 2px solid rgb(111, 90, 63);
+    line-height: 3em;
+    font-family: 'Gill sans', 'Gill sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    color:rgb(218, 229, 175);
+    text-decoration: none;
+    border: 1px solid rgb(92, 96, 50);
+    display: block;
+}
+.cycle-slideshow{
+    width: 100%;
+    margin: 0 auto 0 auto;
+
+}
+.main{
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+h3{
+    color:rgb(70, 125, 76);
+    text-align:center;
+}
+
+div.left, div.middle, div.right{
+    border: 3px ;
+    width: 20%;
+   
+  
+   }
+div.right{
+    float:right;
+    margin-right: 0;
+  }
+aside img{
+    width: 100%;
+}
+aside{
+    display: flex;
+    justify-content: space-between;
+  }
+div.cycle-slideshow{
+    display: flex;
+
+    
+}
+div.cycle-slideshow img{
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+
+
+
+
+footer{
+    background-color: rgb(139, 203, 122);
+    width: 80%;
+    margin: 0 auto 0 auto;
+    border: dotted rgb(44, 66, 40);
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(47, 87, 43);
+    width: 100%;
+}
+li a{
+    display: block;
+    color: rgb(218, 229, 175);
+    text-align: center;
+    padding: 14px 16px;
+
+}
+li a:hover{
+    background-color: rgb(229, 229, 184);
+}
+.active{
+    background-color:rgb(229, 229, 184) ;
+}
+
+@media screen and (min-width: 601px){
+    li{
+        width: 15%;
+        margin: 0;
+        padding: 0;
+        float: middle;
+        box-sizing: border-box;
+    }
+    
+}
+nav{
+    overflow: hidden;
+}
+.cycle-slideshow{
+    width: 80%;
+    float: middle;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.cycle-slideshow{
+    overflow: hidden;
+}
